@@ -98,7 +98,7 @@ cookieSecret = "c2bdf87ec62e252303d08a0a5ea7fb2e61f35f97bd9b24727033f4955d9b5aa6
 
 # If false, will attempt to open a browser window on start.
 # Default: false unless (1) we are on a Linux box where DISPLAY is unset, or (2) we are running in the Streamlit Atom plugin.
-headless = false
+# headless = false
 
 # Automatically rerun script when the file is modified on disk.
 # Default: false
