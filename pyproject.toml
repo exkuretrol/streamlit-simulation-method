@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "simulation-method"
+version = "0.1.0"
+description = ""
+authors = ["exkuretrol <33695301+exkuretrol@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "simulation_method"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.22.0"
+
+
+[tool.poetry.group.dev.dependencies]
+watchdog = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
